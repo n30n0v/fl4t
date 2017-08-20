@@ -20,8 +20,8 @@
     "test": "test"
   },
   "files": [
-    "./index.js",
-    "./build.js"
+    "index.js",
+    "build.js"
   ],
   "dependencies": {},
   "keywords": [
