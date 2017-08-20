@@ -1,4 +1,4 @@
-# fl4t
+# fl4t [![Build Status](https://travis-ci.org/n30n0v/fl4t.svg?branch=master)](https://travis-ci.org/n30n0v/fl4t)
 
 Take a nested Javascript object and flat it.
 

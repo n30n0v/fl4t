@@ -4,7 +4,7 @@
   "main": "build.js",
   "scripts": {
     "test": "mocha -u tdd --reporter spec --compilers js:babel-core/register && standard index.js test/index.js",
-    "build": "babel index.js -o build.js && np"
+    "build": "babel index.js -o build.js && np --no-cleanup"
   },
   "license": "MIT",
   "description": "Take a nested Javascript object and flat it",
