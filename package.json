@@ -1,0 +1,29 @@
+{
+  "name": "fl4t",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -u tdd --reporter spec --compilers js:babel-core/register && standard index.js test/index.js"
+  },
+  "license": "MIT",
+  "description": "Take a nested Javascript object and flat it",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "mocha": "^3.5.0",
+    "standard": "^10.0.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "keywords": [
+    "flat",
+    "json",
+    "flatten",
+    "object",
+    "nested",
+    "functional"
+  ],
+  "author": "n30n0v <n30n0v@gmail.com>"
+}
