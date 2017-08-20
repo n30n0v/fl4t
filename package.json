@@ -16,6 +16,9 @@
   "directories": {
     "test": "test"
   },
+  "files": [
+    "./index.js"
+  ],
   "dependencies": {},
   "keywords": [
     "flat",
