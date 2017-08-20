@@ -1,6 +1,6 @@
 {
   "name": "fl4t",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "build.js",
   "scripts": {
     "test": "mocha -u tdd --reporter spec --compilers js:babel-core/register && standard index.js test/index.js",
