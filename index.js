@@ -1,6 +1,4 @@
-export default function flat (target, opts) {
-  opts = opts || {}
-
+export default function flat (target, opts = {}) {
   const delimiter = opts.delimiter || '.'
   const maxDepth = opts.maxDepth
 
